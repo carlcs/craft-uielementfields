@@ -14,9 +14,6 @@ use yii\base\Event;
  */
 class Plugin extends \craft\base\Plugin
 {
-    /**
-     * @inheritdoc
-     */
     public function init()
     {
         parent::init();
