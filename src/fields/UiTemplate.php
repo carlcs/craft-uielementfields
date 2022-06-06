@@ -11,7 +11,7 @@ use Throwable;
 
 class UiTemplate extends BaseField
 {
-    public string $template;
+    public string $template = '';
 
     public static function displayName(): string
     {

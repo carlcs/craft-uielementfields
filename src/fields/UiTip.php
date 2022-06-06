@@ -13,7 +13,7 @@ class UiTip extends BaseField
     const STYLE_TIP = 'tip';
     const STYLE_WARNING = 'warning';
 
-    public string $tip;
+    public string $tip = '';
     public string $style = self::STYLE_TIP;
 
     public static function displayName(): string
