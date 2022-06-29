@@ -2,6 +2,7 @@
 
 namespace carlcs\uielementfields;
 
+use carlcs\uielementfields\fields\UiLineBreak;
 use carlcs\uielementfields\fields\UiTemplate;
 use carlcs\uielementfields\fields\UiTip;
 use carlcs\uielementfields\fields\UiWarning;
@@ -22,6 +23,7 @@ class Plugin extends \craft\base\Plugin
             $event->types[] = UiTip::class;
             $event->types[] = UiWarning::class;
             $event->types[] = UiTemplate::class;
+            $event->types[] = UiLineBreak::class;
         });
     }
 }
