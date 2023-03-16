@@ -6,7 +6,7 @@ use Craft;
 use craft\base\ElementInterface;
 use craft\helpers\Html;
 
-abstract class BaseField extends craft\base\Field
+abstract class BaseField extends \craft\base\Field
 {
     public static function hasContentColumn(): bool
     {

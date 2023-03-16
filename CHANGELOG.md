@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.3 - 2023-03-16
+
+### Fixed
+- Fixed a bug where the field didn’t load properly in same cases. ([#6](https://github.com/carlcs/craft-uielementfields/issues/6))
+
 ## 2.0.2 - 2022-06-29
 
 ### Added
