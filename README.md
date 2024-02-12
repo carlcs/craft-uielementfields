@@ -1,6 +1,9 @@
+> [!WARNING]
+> **This plugin has been abandoned.** With the release of Craft 5, core UI Elements can now be placed into the field layouts of any element type. However, there is still a Craft 5 compatible version of this plugin available, which includes a `ui-element-fields/convert` command designed to transform existing UI Element fields into core UI Elements.
+
 # UI Element fields for Craft CMS
 
-UI Elements in Matrix blocks is hopefully coming as a core feature in Craft 5 (see [feature request](https://github.com/craftcms/cms/issues/6494)). Install this plugin if you are missing this feature now.
+UI Elements in Matrix blocks is ~~hopefully~~ coming as a core feature in Craft 5 (see [feature request](https://github.com/craftcms/cms/issues/6494)). Install this plugin if you are missing this feature now.
 
 The plugin comes with the following field types, which look just like their UI Element counterparts.
 
