@@ -4,6 +4,7 @@
 
 ### Added
 - Added Craft 5 compatibility.
+- Added the `ui-element-fields/convert` command, for converting UI Element fields to core UI Elements.
 
 ## 2.0.3 - 2023-03-16
 
