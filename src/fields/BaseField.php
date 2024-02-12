@@ -8,12 +8,12 @@ use craft\helpers\Html;
 
 abstract class BaseField extends \craft\base\Field
 {
-    public static function hasContentColumn(): bool
+    public static function icon(): string
     {
-        return false;
+        return 'info';
     }
 
-    protected function inputHtml(mixed $value, ElementInterface $element = null): string
+    protected function inputHtml(mixed $value, ?ElementInterface $element, bool $inline): string
     {
         return $this->_removeHeadingStyles() . $this->formHtml($element);
     }
